@@ -24,3 +24,17 @@ $ sudo apt-get install git
 ## :arrow_down: Installing and Using
 
 Clone the repository into a new directory:
+```
+$ git clone https://github.com/BennettDixon/monty.git
+```
+Compile with the following:
+
+```
+gcc -Wall -Werror -Wextra -pedantic *.c -o monty
+```
+
+Run the interpreter on a file:
+
+```
+./monty file.m
+```
