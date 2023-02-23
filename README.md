@@ -38,3 +38,17 @@ Run the interpreter on a file:
 ```
 ./monty file.m
 ```
+```
+$ git clone https://github.com/BennettDixon/monty.git
+```
+Compile with the following:
+
+```
+gcc -Wall -Werror -Wextra -pedantic *.c -o monty
+```
+
+Run the interpreter on a file:
+
+```
+./monty file.m
+```
