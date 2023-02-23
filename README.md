@@ -52,3 +52,68 @@ Run the interpreter on a file:
 ```
 ./monty file.m
 ```
+$ cat push_pall_pint.m
+push 1
+push 2
+push 3
+pall
+pint
+$ ./monty push_pall_pint.m
+3
+2
+1
+3
+```
+
+Using mathmatical operations to add, multiply, divide, etc. Takes the second from the top and performs the operation on the top: `second_from_top / top`, `second_from_top - top`, `etc`. Then assigns that to the `second_from_top` and pops the top element off the stack.
+
+```
+$ cat math.m
+push 3
+push 2
+push 1
+pall
+mul
+pall
+$ ./monty math.m
+1
+2
+3
+1
+6
+```
+
+Entering queue mode to perform all operations in FIFO (queue) mode instead of default LIFO (stack) mode. Note: does not change current stack, sets front of queue to top of stack.
+
+```
+$ cat queue.m
+queue
+push 1
+push 2
+push 3
+pall
+stack
+push 4
+push 5
+push 6
+pall
+$ ./monty queue.m
+1
+2
+3
+6
+5
+4
+1
+2
+3
+```
+
+## :books: Coding Style Tests
+
+Strictly followed `Betty` style guide. To install
+
+```
+$ git clone https://github.com/holbertonschool/Betty.git
+
+$ cd Betty; ./install.sh
