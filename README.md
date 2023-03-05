@@ -119,7 +119,6 @@ $ git clone https://github.com/holbertonschool/Betty.git
 $ cd Betty; ./install.sh
 ```
 
-
 ## :pencil: Version
 
 * 0.1.0
@@ -129,16 +128,3 @@ $ cd Betty; ./install.sh
 
 * **Larsen Song** 
 
-# :mag: License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-
-## :mega: Acknowledgments
-
-* Holberton School (providing guidance)
-* Stack Overflow (help on various memory errors (not leaks))
-
-<p align="center">
-  <img src="http://www.holbertonschool.com/holberton-logo.png">
-</p>
