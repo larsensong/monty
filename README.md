@@ -116,5 +116,14 @@ Strictly followed `Betty` style guide. To install
 ```
 $ git clone https://github.com/holbertonschool/Betty.git
 
+$ cd Betty; ./install.sh
+```
 
+
+## :pencil: Version
+
+* 0.1.0
+
+
+## :blue_book: Authors
 
