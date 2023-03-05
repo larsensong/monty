@@ -107,8 +107,8 @@ $ ./monty queue.m
 1
 2
 3
-```
 
+```
 ## :books: Coding Style Tests
 
 Strictly followed `Betty` style guide. To install
