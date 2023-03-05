@@ -127,4 +127,18 @@ $ cd Betty; ./install.sh
 
 ## :blue_book: Authors
 
-* **Larsen Song** - [@larsensong](https://github.com/larsensong)
+* **Larsen Song** 
+
+# :mag: License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+
+## :mega: Acknowledgments
+
+* Holberton School (providing guidance)
+* Stack Overflow (help on various memory errors (not leaks))
+
+<p align="center">
+  <img src="http://www.holbertonschool.com/holberton-logo.png">
+</p>
