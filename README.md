@@ -109,6 +109,12 @@ $ ./monty queue.m
 3
 ```
 
+## :books: Coding Style Tests
+
+Strictly followed `Betty` style guide. To install
+
+```
+$ git clone https://github.com/holbertonschool/Betty.git
 
 
 
