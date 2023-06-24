@@ -64,7 +64,7 @@ typedef struct stack_s
  *
  *   * @opcode: The opcode
  *
- *    * @f: function to handle the opcode
+ *    * @f: Function to handle the opcode
  *
  *     *
  *
