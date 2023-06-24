@@ -30,7 +30,7 @@ extern char **op_toks;
  *
  *  * struct stack_s - doubly linked list representation of a stack (or queue)
  *
- *   * @n: integer
+ *   * @n: Integer
  *
  *    * @prev: points to the previous element of the stack (or queue)
  *
