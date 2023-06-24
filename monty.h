@@ -62,7 +62,7 @@ typedef struct stack_s
  *
  *  * struct instruction_s - opcode and its function
  *
- *   * @opcode: the opcode
+ *   * @opcode: The opcode
  *
  *    * @f: function to handle the opcode
  *
